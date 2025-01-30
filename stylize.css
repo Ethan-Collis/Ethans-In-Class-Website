@@ -1,8 +1,19 @@
 body {background-color: rgb(1 33 105);}
-h1 {color: #BE9941}
+h1 {
+    color: #BE9941;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid
+}
 h2 {color: rgb(200 16 46)}
 h3 {color: rgb(200 16 46)}
-p {color: rgb(255, 255, 255)}
+p {
+    color: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14;
+    border: solid
+}
 details {color: rgb(200 16 46)}
-ol {color: rgb(255, 255, 255)}
+ol {color: rgb(255, 255, 255);
+font-family: 'Courier New', Courier, monospace;
+border: solid;}
 a {color: rgb(200 16 46)}
