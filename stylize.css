@@ -1,8 +1,9 @@
-body {background-color: rgb(1 33 105);}
+body {background-color: rgb(59, 79, 125);}
 h1 {
     color: #BE9941;
-    font-family: 'Courier New', Courier, monospace;
-    border: solid
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 h2 {color: rgb(200 16 46)}
 h3 {color: rgb(200 16 46)}
