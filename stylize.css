@@ -1,23 +1,40 @@
-body {background-color: #222A59;}
+body {background-color: #02207A;}
 h1 {
-    color: #F2D649;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 76px;
+    color: #F6FCD0;
+    font-family: Jaro;
+    font-size: 92px;
+    font-weight: 30;
+    line-height: 74.96px;
+    font-optical-sizing: 14px;
+    letter-spacing: 10px;
+    text-align: center;
 }
 
 h2 {
-    color: #F2D649;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    color: #F6FCD0;
+    font-family: Jaro;
+    font-size: 50px;
+    font-weight: 30;
+    line-height: 74.96px;
+    font-optical-sizing: 14px;
+    letter-spacing: 5px;
 }
 
-h3 {color: #F2D649}
+h3 {
+    color: #F6FCD0;
+    font-family: Jaro;
+    font-weight: 30;
+    font-size: 50px;
+    line-height: 74.96px;
+    font-optical-sizing: 14px;
+    letter-spacing: 5px;
+    text-align: center;
+}
 
 p {
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    color: #F6FCD0;
+    font-family: Figtree;
+    font-size: 30px;
 }
 
 details {color: #F2D649}
@@ -30,14 +47,20 @@ a {color: #42b83b}
 
 .city-wrapper {
     padding: 20px;
-    padding-left: 120px;
+    padding-left: 200px;
     margin-bottom: 40px;
 }
 
-.city-wrapper.london > p {
-    font-size: 20px;
+.details-words {
+    color: #F6FCD0;
 }
 
-.details-words {
-    color: white;
+@font-face {
+    font-family: Jaro;
+    src: url(fonts/Figtree,Jaro/Jaro/Jaro-Regular-VariableFont_opsz.ttf);
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(fonts/Figtree,Jaro/Figtree/Figtree-VariableFont_wght.ttf);
 }
