@@ -1,20 +1,43 @@
-body {background-color: rgb(59, 79, 125);}
+body {background-color: #222A59;}
 h1 {
-    color: #BE9941;
-    font-family: "linotype-didot-headline", serif;
-    font-weight: 400;
-    font-style: normal;
+    color: #F2D649;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 76px;
 }
-h2 {color: rgb(200 16 46)}
-h3 {color: rgb(200 16 46)}
+
+h2 {
+    color: #F2D649;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h3 {color: #F2D649}
+
 p {
     color: rgb(255, 255, 255);
-    font-family:'Courier New', Courier, monospace;
-    font-size: 14;
-    border: solid
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
-details {color: rgb(200 16 46)}
+
+details {color: #F2D649}
+
 ol {color: rgb(255, 255, 255);
-font-family: 'Courier New', Courier, monospace;
+font-family: Arial, Helvetica, sans-serif;
 border: solid;}
-a {color: rgb(200 16 46)}
+
+a {color: #42b83b}
+
+.city-wrapper {
+    padding: 20px;
+    padding-left: 120px;
+    margin-bottom: 40px;
+}
+
+.city-wrapper.london > p {
+    font-size: 20px;
+}
+
+.details-words {
+    color: white;
+}
