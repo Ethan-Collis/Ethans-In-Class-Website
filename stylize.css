@@ -1,11 +1,13 @@
-body {background-color: #02207A;}
+body {
+    background-color: #02207A;
+font-optical-sizing: auto;
+}
 h1 {
     color: #F6FCD0;
     font-family: Jaro;
     font-size: 92px;
     font-weight: 30;
     line-height: 74.96px;
-    font-optical-sizing: 14px;
     letter-spacing: 10px;
     text-align: center;
 }
@@ -18,32 +20,40 @@ h2 {
     line-height: 74.96px;
     font-optical-sizing: 14px;
     letter-spacing: 5px;
+    text-align: center;
 }
 
 h3 {
     color: #F6FCD0;
     font-family: Jaro;
-    font-weight: 30;
-    font-size: 50px;
+    font-size: 35px;
     line-height: 74.96px;
     font-optical-sizing: 14px;
     letter-spacing: 5px;
-    text-align: center;
 }
 
 p {
     color: #F6FCD0;
     font-family: Figtree;
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 33.6px;
+    font-weight: 400px;
 }
 
-details {color: #F2D649}
+details {color: #d8774a;
+font-family: Jaro;
+font-size: 25px;
+}
 
-ol {color: rgb(255, 255, 255);
-font-family: Arial, Helvetica, sans-serif;
-border: solid;}
+ol {color: #F6FCD0;
+font-family: Figtree;
+border: solid;
+font-size: 25px;
+line-height: 33.6px;
+font-weight: 400px;
+}
 
-a {color: #42b83b}
+a {color: #d8774a}
 
 .city-wrapper {
     padding: 20px;
@@ -63,4 +73,24 @@ a {color: #42b83b}
 @font-face {
     font-family: Figtree;
     src: url(fonts/Figtree,Jaro/Figtree/Figtree-VariableFont_wght.ttf);
+}
+
+.container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.decoration {
+text-decoration-line: none;
+}
+
+a.decoration
+{
+    font-family: Jaro;
+    font-size: 50px;
 }
