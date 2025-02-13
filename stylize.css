@@ -6,20 +6,27 @@ h1 {
     color: #F6FCD0;
     font-family: Jaro;
     font-size: 92px;
-    font-weight: 30;
+    font-weight: 300;
     line-height: 74.96px;
     letter-spacing: 10px;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.title{
+    text-align: left;
 }
 
 h2 {
     color: #F6FCD0;
     font-family: Jaro;
-    font-size: 50px;
-    font-weight: 30;
+    font-size: 60px;
+    font-weight: 400;
     line-height: 74.96px;
     font-optical-sizing: 14px;
     letter-spacing: 5px;
+    margin: 0px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -37,7 +44,7 @@ p {
     font-size: 20px;
     line-height: 33.6px;
     font-weight: 400px;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 details {color: #d8774a;
@@ -53,19 +60,32 @@ line-height: 33.6px;
 font-weight: 400px;
 }
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 a {color: #d8774a}
 
 .city-wrapper {
     display: flex;
     gap: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 80px;
 }
 
 .city-img {
-    width: 30%;
+    width: 40%;
 }
 
 .city-text{
-    width: 70%;
+    width: 60%;
+}
+
+.city-texts{
+    font-size: 30px;
 }
 
 .details-words {
@@ -85,7 +105,7 @@ a {color: #d8774a}
 .container {
 margin-left: auto;
 margin-right: auto;
-max-width: 600px;
+max-width: 1200px;
 }
 
 .w-100 {
@@ -94,10 +114,18 @@ max-width: 600px;
 
 .decoration {
 text-decoration-line: none;
+font-family: Jaro;
+font-size: 30px;
+margin: 0px;
 }
 
-a.decoration
-{
-    font-family: Jaro;
-    font-size: 50px;
+.decoration-london{
+    text-decoration-line: none;
+font-family: Jaro;
+}
+
+.london{
+    border: solid;
+    border-color: #d8774a;
+    border-width: 10px;
 }
